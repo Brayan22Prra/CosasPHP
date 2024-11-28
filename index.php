@@ -33,6 +33,7 @@ curl_close($ch);
         <h3> <?= $data["title"]; ?> Se estrena en <?= $data["days_until"]; ?> dias </h3>
         <p>Fecha de estreno <?= $data["release_date"]; ?> </p>
         <p>La siguiente es: <?= $data["following_production"]["title"]; ?> </p>
+        <p>Pagina By: Brian Bernardt </p>
     </hgroup>
 
 </main>
